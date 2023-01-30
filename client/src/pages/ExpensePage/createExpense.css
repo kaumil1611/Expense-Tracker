@@ -1,0 +1,48 @@
+/* createCategory.css */
+
+.create-category-container {
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mr-3 {
+  margin-right: 15px;
+}
+.is-invalid {
+  border-color: red;
+}
+.category-select-error {
+  border-color: red;
+}
