@@ -15,3 +15,51 @@
 * _User edit their expense and category and also perform delete operation to delete particular category during time of edit user enter high amount then their limit same error-message pop-up. In short, app have full validation in both client and server side._
 
 * _User perform sorting and searching facility._
+
+# \*\* How to install and Run the Project
+
+## Prerequisites
+
+- Node.js (version 12 or higher)
+- npm (version 6 or higher)
+
+## Installation
+
+1. Clone this repository to your local machine
+
+### _https://github.com/kaumil1611/Expense-tracker.git_
+
+2. Navigate to the `client` directory
+
+### $cd Expense-Tracker/client
+
+3. Install the dependencies
+
+### _$ npm install_
+
+4. Repeat the steps 2 and 3 for the `server` directory
+
+5. Create a `.env` file in the `server` directory with the following contents:
+
+### _PORT=<port number>_
+
+## Running the Project
+
+1. Start the React app
+
+### _$ cd Expense-Tracker/client_
+
+### _$ npm start_
+
+The application should now be accessible at http://localhost:<port number>
+
+# **Out-Put**
+
+![Login page](./login.png)
+![Register page](./register.png)
+![Home page](./Homepage.png)
+![Category Listing page](./categorypage.png)
+![Category Add page](./addcategory.png)
+![Expense Listing page](./expensepage.png)
+![Expense Add page](./createexpense.png)
+![Search feature](./searchfacility.png)

@@ -192,6 +192,23 @@ module.exports.deleteCategory = (req, res) => {
       });
       Category.deleteMany({ _id: { $in: categoryId } })
         .then(() => {
+          /* this code used for delete expenses of that category simultaneously 
+          Expense.deleteMany({ "category": { $in: categoryId } })
+            .then(() => {
+              res
+                .status(200)
+                .json({
+                  message: "Category(s) and related expenses deleted successfully",
+                  status: 1,
+                });
+            })
+            .catch((err) => {
+              res.status(400).send({
+                message: "Error deleting related expenses",
+              });
+            });
+          
+          */
           res
             .status(200)
             .json({ message: "Category(s) deleted successfully", status: 1 });
